@@ -43,7 +43,7 @@ def fib(num)
     fib_ar
 end
 
-
+loop do
 def print_indexed_fib(num)
     result = fib(num)
     result.each_index {|index| puts "#{index + 1}. #{result[index]}"}
@@ -55,6 +55,7 @@ end
 
 def print_fib_at(num)
     puts fib(num)[-1]
+end
 end
 
 =begin
