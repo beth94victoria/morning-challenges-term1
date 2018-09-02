@@ -9,5 +9,8 @@ bris = ["132588", "102333", "268834", "098464", "956698", "081134", "134889", "1
 
 # Easy to do right? Now try working it out with three lines of code, you should be able to do it with 6 words and some operators and syntax.
 
-melbourne.uniq.push(bris)
-puts melbourne
+#melbourne.uniq!.push(bris)
+#puts melbourne.inspect
+
+x = (melbourne + bris)
+print x
