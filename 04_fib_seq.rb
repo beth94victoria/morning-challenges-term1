@@ -2,6 +2,7 @@
 
 # 2. There is an odd employee at The Company who needs some code written that will provide them with the first 100 numbers of the Fibonacci sequence ….. (no one really knows why the odd employee needs this information - or why they can’t work it out themselves - but Monday mornings can be strange).
 
+<<<<<<< HEAD
 #so we need a code that takes numbers 0-100 using fib sequence  = 1+1=2 1+2=3 2+3=5 3+5=8 5+8=
 =begin
 fs = 5
@@ -87,3 +88,15 @@ else
 
 end
 
+=======
+# Generate and return the first 'count' values in the Fibonacci sequence
+def fib(count)
+    fib_sequence = [1, 1]
+    count.times do |n|
+        fib_sequence << fib_sequence[n] + fib_sequence[n+1]
+    end
+    return fib_sequence
+end
+
+puts fib(100)
+>>>>>>> a66f15b560d5615b416b1045b016e9e610546faf
