@@ -2,3 +2,4 @@
 # Plywood can be purchased in 1200 X 2400 mm sheets at a cost of $28.47 per sheet.
 # Each lamp base is a circle with a diameter of 320mm. 
 # What is the total cost of ordering the plywood for the bases, and how much plywood is wasted?
+
