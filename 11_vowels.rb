@@ -11,9 +11,10 @@
 # count_vowels("Hello World") should return ["e","o","o"]
 #
 # Check your solution by running the tests:
-# ruby tests/04_vowels_test.rb
+# ruby tests/11_vowels_test.rb
 #
 
 def vowels (string)
-  
+  vowels = []
+  string.scan(/[aeiou]/i)
 end
