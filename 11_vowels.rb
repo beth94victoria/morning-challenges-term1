@@ -12,7 +12,7 @@
 #
 # Check your solution by running the tests:
 # ruby tests/11_vowels_test.rb
-#
+
 
 def vowels (string)
   vowels = []
