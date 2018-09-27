@@ -19,7 +19,13 @@
 
 
 def unique (mylist)
+<<<<<<< HEAD
 return mylist & mylist
+=======
+  hash = {}
+  mylist.each { |x| hash[x] = true }
+  hash.keys
+>>>>>>> f7850e4f09a932dcef0f3a869dbd6679dd19d852
 end
 
 

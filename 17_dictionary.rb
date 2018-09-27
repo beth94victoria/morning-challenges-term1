@@ -21,6 +21,7 @@
 #
 
 class Dictionary
+<<<<<<< HEAD
   
  def add_word()
  end
@@ -28,4 +29,18 @@ class Dictionary
  end
  def total_words()
  end 
+=======
+  def initialize
+    @words = {}      
+  end
+  def add_word(key, val)
+    @words[key] = val
+  end
+  def total_words
+    @words.length
+  end
+  def lookup(key)
+    @words[key]
+  end
+>>>>>>> f7850e4f09a932dcef0f3a869dbd6679dd19d852
 end
